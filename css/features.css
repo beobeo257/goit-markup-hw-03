@@ -22,3 +22,7 @@
   display: flex;
   column-gap: 24px;
 }
+
+.features-list-container li {
+  max-width: 264px;
+}

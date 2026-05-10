@@ -1,10 +1,11 @@
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-container {
   justify-content: center;
-  padding-bottom: 68px;
 }
 
 .hero-main-title {
@@ -15,7 +16,6 @@
   text-align: center;
   color: #ffffff;
   max-width: 496px;
-  padding-top: 68px;
   padding-bottom: 48px;
   margin-right: auto;
   margin-left: auto;

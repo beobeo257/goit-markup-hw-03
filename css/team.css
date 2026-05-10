@@ -2,12 +2,13 @@
   background-color: #f4f4fd;
 }
 
-.team-list-container {
+.team-container {
   display: flex;
   column-gap: 24px;
 }
 .team li {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 
 .team h2 {
@@ -16,7 +17,7 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team h3 {
@@ -25,7 +26,6 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-top: 32px;
   padding-bottom: 8px;
 }
 
@@ -36,5 +36,8 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
+}
+
+.team-list-container {
+  padding: 32px 16px;
 }
