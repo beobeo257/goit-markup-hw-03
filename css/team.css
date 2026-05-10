@@ -2,6 +2,10 @@
   background-color: #f4f4fd;
 }
 
+.team-list-container {
+  display: flex;
+  column-gap: 24px;
+}
 .team li {
   background-color: #ffffff;
 }
@@ -12,6 +16,7 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 72px;
 }
 
 .team h3 {
@@ -20,6 +25,8 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .team p {
@@ -29,4 +36,5 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 32px;
 }
